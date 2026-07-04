@@ -10,7 +10,7 @@ target_cursor = target_conn.cursor()
 try:
     print("Reading listings from rent_ev10.db...")
     source_cursor.execute("""
-        SELECT rent_id, link, latitude, longitude, price, rooms, floor, building_type, checked 
+        SELECT rent_id, link, latitude, longitude, price, rooms, floor, building_type, checked, favourite
         FROM rent_ev10
     """)
     rent_ev10_rows = source_cursor.fetchall()
@@ -18,8 +18,8 @@ try:
 
     print("Migrating rows into rent_data.db...")
     insert_query = """
-        INSERT OR IGNORE INTO rentals (rent_id, link, latitude, longitude, price, rooms, floor, building_type, checked)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT OR IGNORE INTO rentals (rent_id, link, latitude, longitude, price, rooms, floor, building_type, checked, favourite)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?,?)
     """
     
     target_cursor.executemany(insert_query, rent_ev10_rows)
