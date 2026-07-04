@@ -25,7 +25,9 @@ cursor.execute("""
         price INTEGER,
         rooms INTEGER,
         floor TEXT,
-        building_type TEXT
+        building_type TEXT,
+        checked INTEGER,
+        favourite INETEGR
     )           
 """)
 
@@ -69,7 +71,9 @@ for ID in fresh_ids:
             "link": f"https://bina.az/items/{ID}",
             "rooms": None,
             "floor": None,
-            "building_type": None
+            "building_type": None,
+            "checked":0,
+            "favourite":0
         }
 
         for div in soup.find_all(class_="product-properties__i"):
@@ -94,8 +98,8 @@ for ID in fresh_ids:
             connection = sqlite3.connect("rent_data.db")
             cursor = connection.cursor()
             insert_query = """
-            INSERT OR REPLACE INTO rentals(rent_id, link, latitude, longitude, price, rooms, floor, building_type)
-            VALUES(?,?,?,?,?,?,?,?)
+            INSERT OR REPLACE INTO rentals(rent_id, link, latitude, longitude, price, rooms, floor, building_type,checked,favourite)
+            VALUES(?,?,?,?,?,?,?,?,?,?)
             """
             
             for apartment in all_Info[location_id]:
@@ -107,7 +111,9 @@ for ID in fresh_ids:
                     apartment.get("price"),
                     apartment.get("rooms"),
                     apartment.get("floor"),
-                    apartment.get("building_type")
+                    apartment.get("building_type"),
+                    apartment.get("checked"),
+                    apartment.get("favourite")
                 )
                 cursor.execute(insert_query, values)
                 
@@ -126,8 +132,8 @@ if all_Info[location_id]:
     connection = sqlite3.connect("rent_data.db")
     cursor = connection.cursor()
     insert_query = """
-    INSERT OR REPLACE INTO rentals(rent_id, link, latitude, longitude, price, rooms, floor, building_type)
-    VALUES(?,?,?,?,?,?,?,?)
+    INSERT OR REPLACE INTO rentals(rent_id, link, latitude, longitude, price, rooms, floor, building_type,checked,favourite)
+    VALUES(?,?,?,?,?,?,?,?,?,?)
     """
     for apartment in all_Info[location_id]:
         values = (
@@ -138,7 +144,9 @@ if all_Info[location_id]:
             apartment.get("price"),
             apartment.get("rooms"),
             apartment.get("floor"),
-            apartment.get("building_type")
+            apartment.get("building_type"),
+            apartment.get("checked"),
+            apartment.get("favourite")
         )
         cursor.execute(insert_query, values)
         
