@@ -1,0 +1,364 @@
+{
+    "postings": [
+        {
+            "id": 240107,
+            "price": 1000,
+            "floor": 10,
+            "total_floors": 17,
+            "area": 100.0,
+            "rooms": 2,
+            "address": "Yusif Vəzir Çəmənzəminli küçəsi",
+            "location_lat": 40.40169907,
+            "location_lng": 49.83317184,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/04837e5433bf428e8153b0dd291aba13.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/0bc807a6d34443009aa98b74030fb3a6.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/fedc4efefad2457680c2ec02cc81a02c.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7afb713f474d49fdb5d98bb0e2ef6a8c.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/0b97df225a6442e19faed33a5db8d52e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/bf57b2aa27ca4e83bdc9f4eb707cc594.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/5a0f3f5d303f4b5db698156ee46db7d3.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/80f8474f4c0d490fad794ce8cc6832b5.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/16b3e7d96fb9468b86eb9ab3f362b852.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/b412affaaae247d99b4c44e6c50f97fe.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/5e344aba9aba4c3a86a48a48e5886724.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nərimanov",
+            "renewed_at": "2026-05-24T07:49:36",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "8 Noyabr",
+                "distance_meters": 1025.29
+            },
+            "phone_number": "0502093774",
+            "created_by": 5775,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        },
+        {
+            "id": 256547,
+            "price": 800,
+            "floor": 2,
+            "total_floors": 16,
+            "area": 90.0,
+            "rooms": 2,
+            "address": "Həsən Əliyev küçəsi.",
+            "location_lat": 40.39788818,
+            "location_lng": 49.82223511,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/b87a6a12b84f446397a8044e28737c89.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/1126626798894062bcefe3b777124d6e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/27d8ef129d1b4ef3840875f98c79b39f.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/d396dd6626364321a50d5cc8f0511b16.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/8ae7f51239284840a5ff700f2169f64c.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/546a53989c8c493db38f2f5deced1dd6.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/86a54a411d794bcaa452796341b567ee.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/72d1620c8db640d78bae67f2e4fcd26e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/a48aee6351874a96977e6196848e6227.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/16120f72bb6e4e8ab2a1683185bcd7ba.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nəsimi",
+            "renewed_at": "2026-05-24T07:43:06",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "8 Noyabr",
+                "distance_meters": 466.476
+            },
+            "phone_number": "0102395517",
+            "created_by": 81305,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        },
+        {
+            "id": 256528,
+            "price": 900,
+            "floor": 13,
+            "total_floors": 17,
+            "area": 80.0,
+            "rooms": 2,
+            "address": "Maksud elizade ",
+            "location_lat": 40.40185165,
+            "location_lng": 49.84173203,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7df1fd245d264370a7fde09bdfad10b8.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/9b971e71c01b4f4fb154c2e0e1306d28.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/fa71d9e4d74142188028e2a966e9cf7e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/a5e5705a88c64d888d1a94ed511be9f3.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/904bf8021a2844bc83de9df78d58554c.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/2aab534ee2bd431a8c8fb0bbd5bf6bd4.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/752363b4470640f785b1fbf4b5928d8d.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/924b520553c246dfa2e628a5a9754430.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/d051f0f6cc9046f08d3acf0b720fd8de.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/d3346f3d97ac4c9297e1eee3e6d08f11.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/45ee6aecd5c24ae8816b4126fc6e9b4c.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nəsimi",
+            "renewed_at": "2026-05-24T05:20:43",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "Gənclik",
+                "distance_meters": 841.466
+            },
+            "phone_number": "0775584559",
+            "created_by": 42531,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        },
+        {
+            "id": 256518,
+            "price": 2300,
+            "floor": 6,
+            "total_floors": 12,
+            "area": 160.0,
+            "rooms": 3,
+            "address": "Tbilisi prospekti",
+            "location_lat": 40.39699173,
+            "location_lng": 49.81655121,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/bbf30aaad89a4eb59fcc85fa3f891c1d.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/af54bcf6f4ed40a9874ad37048a21b9e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/feb347fedc0441168f3dcb290394a256.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/e294e3728ab6435ba875abe42d69ee3b.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/2209db7234614fe0944580a4294647c2.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/80d8c717adf64ee9bacad5b27046c3a2.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7bd87ccfdf70418f9200cfe64914240d.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/42c9fd9741cb461cba78c324e946a1a3.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/f9ed89018cb4431d9f7175e195c39950.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/3be65f9881ec438caf9fce093af38f20.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/e24be3bbc6e84ba798453d0b849c3cbf.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/cb6d3bc706bd4f59b6b77c0929d311e5.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/088214f0d3054d90bc5657871eab696e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/bccbd33e3baa4c0f9919a412ede0ac8a.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/525559110db44593bd5edbd9e6bb75fb.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/a1a59fe36f3f419eb775eb633284665e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/e084bc69a15145d39482092f35e23bdd.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/b1301d65ce8040958a8bbdc931c0b6d9.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/1a36e81eedca4435ac3b2d54c0bb9c6b.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/8fce9190bfe047278ae6436ceac5607e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/0c9cf261741349d8a4e7f1f42796b504.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/b21d5392d2444389bc89e22f117bf052.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/220fa7b4ddc149b89fe7e8d9d05ac6c1.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/0406df796be74307ba63cf078b774c45.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7ae4b4a5f7c6458e90ee771be5f080d1.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/ff29b5ef06e14bb9aab29c77bba3e002.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/68b9a8eacb7244c9a8ea320d6f86a771.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/36466b2802b14e8eaa8767733cffa245.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/58ec596fa3734f9b8f3217895f5914bb.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nəsimi",
+            "renewed_at": "2026-05-23T22:41:11",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "8 Noyabr",
+                "distance_meters": 674.594
+            },
+            "phone_number": "0515541004",
+            "created_by": 81810,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        },
+        {
+            "id": 242524,
+            "price": 750,
+            "floor": 2,
+            "total_floors": 16,
+            "area": 60.0,
+            "rooms": 2,
+            "address": " Nərimanov m",
+            "location_lat": 40.39308167,
+            "location_lng": 49.8562088,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7f9e1ab038b34d9da7b10d3201b9a4ae.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/10f441a648c848688fa270c685dae215.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/889948de6b68424080474eeaa145403a.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/86500ccaf0c748188daec0a02297cf64.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/3fbf765e898f493b9dd8d2b92e6bddbf.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/2e3c700d4cee4749944ea238a3539075.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/697c785b0fb24b7f8b36e6d503ecdd2f.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/904b52da92e64d509873c76ed75980b6.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/219c820f1a424c0482a6974af42bb8b2.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/eedac50ed5984edaa45f618223b5a9dc.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/dc25fced5acb478aa994ac6ca4c2782b.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/94482fc5680d4c1798b2904089f51a27.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7ccaddac2dbf4d178ba239f843ed816e.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/7b12a85b16384179aabb82b995db465d.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/8a36cdd98dad41c0add85f9a604a78db.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/8176318ab6c846318121d531d3d4bc3d.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nərimanov",
+            "renewed_at": "2026-05-23T22:12:52",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "Gənclik",
+                "distance_meters": 934.282
+            },
+            "phone_number": "0515541004",
+            "created_by": 81810,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        },
+        {
+            "id": 256499,
+            "price": 1000,
+            "floor": 5,
+            "total_floors": 5,
+            "area": 80.0,
+            "rooms": 3,
+            "address": "Hesen eliyev ",
+            "location_lat": 40.40115738,
+            "location_lng": 49.84224319,
+            "images": [
+                "https://cdn.ev10.az/uploaded_images/medium_quality/4bec4c626bd243f99178cc212f95cbf2.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/6d8a29d4417d495ab5aab0d103d58e7f.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/1e36cf04b6064590a7dd6b3ea6a34fb1.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/d318a24232e94db688d0887ace3534ec.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/a3fc76a2a66f473c9b3b4705d3ba0c85.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/c7662d0650fe40c8b5222a5dfcad9d48.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/63a5a05994dc4a80b490611dec1b9c96.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/cf80edd13b5f4de1a87c9daf931d9c72.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/9a6b073901c74610be0d66bdc2657c2c.webp",
+                "https://cdn.ev10.az/uploaded_images/medium_quality/149097695d60405bb2afa89853baf0c3.webp"
+            ],
+            "property_type": "apartment",
+            "city": "Bakı",
+            "district": "Nərimanov",
+            "renewed_at": "2026-05-23T20:32:04",
+            "media_type": "image",
+            "renovated": true,
+            "sale_type": "LEASE",
+            "subway_station": {
+                "name": "Gənclik",
+                "distance_meters": 790.016
+            },
+            "phone_number": "0775584559",
+            "created_by": 42531,
+            "is_new_building": true,
+            "lease_type": "MONTHLY",
+            "average_review": 0.0,
+            "number_of_reviews": 0
+        }
+    ],
+    "sponsored_postings": [],
+    "locations": [
+        {
+            "id": 187,
+            "latitude": 40.40069924,
+            "longitude": 49.85155344,
+            "type": "subway",
+            "name": "Gənclik",
+            "full_name": "Gənclik",
+            "ru_full_name": "Гянджлик",
+            "ru_name": "Гянджлик",
+            "viewport": {
+                "northeast": {
+                    "lat": 40.4018841802915,
+                    "lng": 49.8522724802915
+                },
+                "southwest": {
+                    "lat": 40.3991862197085,
+                    "lng": 49.8495745197085
+                }
+            }
+        },
+        {
+            "id": 186,
+            "latitude": 40.38044476,
+            "longitude": 49.84876317,
+            "type": "subway",
+            "name": "28 May",
+            "full_name": "28 May",
+            "ru_full_name": "28 Мая",
+            "ru_name": "28 Мая",
+            "viewport": {
+                "northeast": {
+                    "lat": 40.38090358029149,
+                    "lng": 49.85236013029149
+                },
+                "southwest": {
+                    "lat": 40.3782056197085,
+                    "lng": 49.84966216970849
+                }
+            }
+        },
+        {
+            "id": 208,
+            "latitude": 40.40198833,
+            "longitude": 49.82106953,
+            "type": "subway",
+            "name": "8 Noyabr",
+            "full_name": "8 Noyabr",
+            "ru_full_name": "8 Ноября",
+            "ru_name": "8 Ноября",
+            "viewport": {
+                "northeast": {
+                    "lat": 40.40291618029149,
+                    "lng": 49.82298248029151
+                },
+                "southwest": {
+                    "lat": 40.4002182197085,
+                    "lng": 49.82028451970851
+                }
+            }
+        },
+        {
+            "id": 197,
+            "latitude": 40.37937159,
+            "longitude": 49.82991149,
+            "type": "subway",
+            "name": "Nizami",
+            "full_name": "Nizami",
+            "ru_full_name": "Низами",
+            "ru_name": "Низами",
+            "viewport": {
+                "northeast": {
+                    "lat": 40.38027323029149,
+                    "lng": 49.8313900302915
+                },
+                "southwest": {
+                    "lat": 40.37757526970849,
+                    "lng": 49.8286920697085
+                }
+            }
+        }
+    ],
+    "overall_viewport": {
+        "northeast": {
+            "lat": 40.40291618029149,
+            "lng": 49.85236013029149
+        },
+        "southwest": {
+            "lat": 40.37757526970849,
+            "lng": 49.82028451970851
+        }
+    }
+}
