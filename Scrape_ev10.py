@@ -82,7 +82,7 @@ for apartment in file["postings"]:
         values.get("floor"),
         values.get("building_type"),
         values.get("checked"),
-        values.get("checked")
+        values.get("favourite")
     )
     insert_query = ("""
         INSERT OR REPLACE INTO rent_ev10(rent_id,link,latitude,longitude,price,rooms,floor,building_type,checked,favourite)
