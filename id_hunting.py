@@ -2,25 +2,35 @@ import time
 import random
 import requests
 from fake_useragent import UserAgent
+import os
 
 ua = UserAgent()
 
-TARGET_LOCATION = 35 # check location.txt for metro station id
+TARGET_LOCATION = 35 # check location.txt for metro station id 
 filename = f"location_{TARGET_LOCATION}_ids.txt"
-max_apartments = 1185 # check the number of apartments in that metro station from the website
+max_apartments = 1245 # check the number of apartments in that metro station from the website 
 
 
-with open(filename, "w") as f:
-    pass
+seen_ids = set()
+if os.path.exists(filename):
+    with open(filename, "r") as f:
+        seen_ids = set(line.strip() for line in f if line.strip())
+    collected_count = len(seen_ids)
+    print(f"📂 Resuming — {collected_count} IDs already saved.")
+else:
+    collected_count = 0
 
-collected_count = 0
 has_next_page = True
 end_cursor = None  
+print(f"cursor: {end_cursor}")
 
 print(f"🚀 Initializing real-time ID harvest for Location: {TARGET_LOCATION}")
 print(f"💾 Data will stream directly into storage: {filename}\n")
 
 while has_next_page:
+    if collected_count >= max_apartments:
+        print(f"🎯 Target reached! Already collected {collected_count}/{max_apartments} items.")
+        break
     headers = {
         "User-Agent": ua.random,
         "Content-Type": "application/json",
@@ -38,12 +48,12 @@ while has_next_page:
                 "leased": True,
                 "locationId": int(TARGET_LOCATION)
             },
-            "sort": "BUMPED_AT_DESC"
+            "sort": "PRICE_ASC" 
         },
         "extensions": {
             "persistedQuery": {
                 "version": 1,
-                "sha256Hash": "c6e47f86a9781ef4db9fc4ace25401d182e66eb4605c66de5ec0310f04fa9b76"
+                "sha256Hash": "55232d32b6adb3055bc3e1f0a5627adb2812a29c4d93d29eaa46df1da5b4170d"  #error varsa,bunu dəyişməyi yoxla, filtrlədikdən sonra website-da network=>payload=>extensions-da tapa bilərsən(decode elə)
             }
         }
     }
@@ -62,7 +72,6 @@ while has_next_page:
         if not edges:
             print("🏁 No more items returned by server.")
             break
-        seen_ids=()
 
         with open(filename, "a") as f:
             for edge in edges:
@@ -76,17 +85,23 @@ while has_next_page:
                 
                 item_id = edge["node"]["id"]
                 f.write(f"{item_id}\n")
+                seen_ids.add(item_id)
                 collected_count += 1
             
         print(f"📥 Streamed batch of {len(edges)} items to file. Total saved: {collected_count}")
-        
+
         has_next_page = page_info.get("hasNextPage", False)
         end_cursor = page_info.get("endCursor", None)
-        
-    except Exception as e:
-        print(f"❌ Network interruption: {e}")
+        # print(f"➡️ next cursor: {end_cursor} | hasNextPage: {has_next_page}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Network error: {type(e).__name__}: {e}")
+        break
+    except (KeyError, ValueError) as e:
+        print(f"❌ Response parsing error: {type(e).__name__}: {e}")
+        print(f"Status: {response.status_code}, Body: {response.text[:500]}")
         break
         
-    time.sleep(random.uniform(4.2,6.5))
+    time.sleep(random.uniform(3.2,5))
 
 print(f"\n✨ Extraction complete! Look inside your project folder for '{filename}'")
